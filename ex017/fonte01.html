@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'work sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em(altura m), ex(altura x), rem(conte configurada no body), vw(porcentagem da view port), vh, % 
+            16px geralmente = 1em*/
+
+            font-size: 1em;
+            
+            /*lighter normal bold bolder*/
+        }
+
+        h1 {
+            
+            /*shorthand font
+            
+            -font-style =>, font-weight => font-size => font-family ( Pode ser usado no lugar destes abaixom precisa ser nesta ordem sempre)
+            
+            font-family: 'work-sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quod at fuga, rerum nostrum ullam quam officia dolor tenetur, voluptate voluptatibus non perspiciatis quidem impedit temporibus expedita reiciendis odio harum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. At impedit officia exercitationem, vitae eum labore. Aliquid nemo alias sunt labore laudantium ea, voluptate magni quia officiis culpa impedit tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus rerum accusamus modi, nostrum nulla voluptates quam qui minima id. Aliquid explicabo harum laborum, ad possimus accusantium rerum quas in odio.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, maiores sequi eum tenetur voluptatem itaque exercitationem assumenda non ea tempora laborum, cumque placeat officia quam modi? Soluta nostrum provident recusandae?</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt libero debitis voluptatum expedita, autem sapiente id non corrupti, aliquam quia est nihil quos, aspernatur doloremque officia consequatur dolore sunt fugit.</p>
+</body>
+</html>
